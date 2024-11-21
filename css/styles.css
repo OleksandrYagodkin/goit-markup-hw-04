@@ -126,10 +126,11 @@ h6 {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    max-width: 1440px;
+    max-width: 496px;
     margin: 0 auto;
     margin-bottom: 48px;
     display: block;
+    
     }
 .hero-button{
     background-color: #4D5AE5;
