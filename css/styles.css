@@ -1,3 +1,7 @@
+
+htm{
+    scroll-behavior: smooth;
+}
 *,
 *::before,
 *::after {
@@ -114,9 +118,7 @@ h6 {
 }
 
 
-.footer-contacts{
-    font-style: normal;
-}
+
 
 .contacts{
     line-height: 1.5;
@@ -229,12 +231,8 @@ text-align: left;
     box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08), 0 1px 1px rgba(46, 47, 66, 0.16), 0 2px 1px rgba(46, 47, 66, 0.08);
     flex-basis: calc((100% - 72px) / 4);
 }
-.footer{
-    background-color: #2e2f42;
-}
-.studio-footer{
-color: #f4f4fd;
-}
+
+
 
 img {
     display: block;
@@ -307,7 +305,7 @@ p {
 img {
     display: block;
 }
-                       /*social networks*/
+/*---------==========social networks*==========----------*/
 .social-box{
     display: flex;
     justify-content: center;
@@ -476,4 +474,15 @@ img {
 .footer-socmedia-box .socmedia-link:hover,
 .footer-socmedia-box .socmedia-link:focus {
     background-color: #31d0aa;
+.studio-footer {
+    color: #f4f4fd;
+}
+.footer {
+    background-color: #2e2f42;
+}
+.footer-contacts {
+    font-style: normal;
+}
+.footer-contacts {
+    font-style: normal;
 }
