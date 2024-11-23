@@ -21,6 +21,7 @@ h6 {
 .section-title-accent{
     color: #2e2f42;
 }
+
 .text-features,
 .text-team,
 .text-portfolio{
@@ -31,6 +32,11 @@ h6 {
 }
 .text-team{
     text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+     margin-bottom: 8px;
 }
 .text-footer{
     color: var(--cloud);
@@ -201,6 +207,8 @@ text-align: left;
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08), 0 1px 1px rgba(46, 47, 66, 0.16), 0 2px 1px rgba(46, 47, 66, 0.08);
+    flex-basis: calc((100% - 72px) / 4);
 }
 .footer{
     background-color: #2e2f42;
@@ -305,4 +313,40 @@ p {
 
 img {
     display: block;
+}
+                       /*social networks*/
+.social-box{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.social-item {
+    height: 40px;
+    width: 40px;
+}
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #f4f4fd;
+    background-color: #4d5ae5;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-link:hover,
+.soccial-link:focus {
+    background-color: #404bbf;
+}
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
 }
