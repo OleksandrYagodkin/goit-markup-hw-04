@@ -124,6 +124,7 @@ h6 {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
+    transition-property: color;
 }
 .contacts-list{
     display: flex;
@@ -470,10 +471,12 @@ img {
     display: flex;
     font-size: 24px;
     gap: 16px;
+    transition-property: background-color;
 }
 .footer-socmedia-box .socmedia-link:hover,
 .footer-socmedia-box .socmedia-link:focus {
     background-color: #31d0aa;
+}
 .studio-footer {
     color: #f4f4fd;
 }
