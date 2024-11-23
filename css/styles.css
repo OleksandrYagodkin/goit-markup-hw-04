@@ -433,9 +433,7 @@ img {
     row-gap: 48px;
 }
 
-.portfolio-iteam {
-    flex-basis: calc((100% - 48px) / 3);
-}
+
 .text-portfolio {
     font-weight: 400;
     font-size: 16px;
