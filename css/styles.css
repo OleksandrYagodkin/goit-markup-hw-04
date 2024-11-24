@@ -313,13 +313,12 @@ img {
 .social-box{
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 16px;
 }
-.social-box-team{
+.social-box-team {
     display: flex;
     font-size: 24px;
     gap: 24px;
-    
     justify-content: center;
 }
 .social-item {
